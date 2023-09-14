@@ -160,9 +160,12 @@ const fetchTechnologyNews = async () => {
 }
 
 const fetchQueryNews = async () => {
-
-    if(newsQuery.value == null)
-        return;
+    
+  const query = newsQuery.value.trim();
+  if (!query) {
+      newsdetails.innerHTML = "<h5>Please enter a search query.</h5>";
+      return;
+  }
 
     const response = await fetch(SEARCH_NEWS+encodeURIComponent(newsQuery.value)+"&apiKey="+API_KEY);
     newsDataArr = [];
