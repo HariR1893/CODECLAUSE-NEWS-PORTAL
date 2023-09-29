@@ -66,4 +66,4 @@ To get started with the Currency Converter web application, follow these steps:
    
 5. The app will open in your default web browser at `http://localhost:3000.`
 
-Feel free to explore and customize this project as you see fit. It's a great way to gain practical experience in web development during your internship at Prodigy Infotech!
+Feel free to explore and customize this project as you see fit. It's a great way to gain practical experience in web development during your internship at CODE CLAUSE!
